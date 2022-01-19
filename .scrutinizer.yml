@@ -5,6 +5,7 @@ build:
   nodes:
     coverage:
       tests:
+        override:
           - command: composer phpunit-xml
             coverage:
               file: phpunit.coverage.xml
