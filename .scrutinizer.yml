@@ -5,8 +5,6 @@ build:
   nodes:
     coverage:
       tests:
-        override:
-          - php-scrutinizer-run
           - command: composer phpunit-xml
             coverage:
               file: phpunit.coverage.xml
