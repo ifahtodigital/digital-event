@@ -1,6 +1,6 @@
 language: php
 php:
-  - php-7.4snapshot
+  - 7.4snapshot
 cache:
   directories:
     - node_modules
