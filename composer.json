@@ -20,14 +20,14 @@
         }
     ],
     "require": {
-        "php": "^7.4.27",
+        "php": "^7.4",
         "phpunit/phpunit": "^9.5"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.6"
     },
     "scripts": {
-        "phpunit": "phpunit --stop-on-error --stop-on-failure --testdox",
+        "phpunit": "phpunit -c phpunit.xml --colors --stop-on-error --stop-on-failure --testdox",
         "phpunit-xml": "phpunit --stop-on-error --stop-on-failure --coverage-clover phpunit.coverage.xml",
         "phpcs-check":  "phpcs --colors -s",
         "phpcs-fix":  "phpcbf --colors -s",
