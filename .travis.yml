@@ -1,16 +1,12 @@
 language: php
-
 php:
-  - '7.4.27'
-
+  - php-7.4snapshot
 cache:
   directories:
     - node_modules
     - vendor
-
 before_script:
   - composer install --no-interaction
-
 script:
   - composer phpcs-auto-check-project
   - composer phpunit
