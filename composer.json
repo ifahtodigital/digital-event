@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4.27",
         "phpunit/phpunit": "^9.5"
     },
     "require-dev": {
