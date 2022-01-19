@@ -4,5 +4,4 @@ namespace IfahtoDigital\DigitalEvents;
 
 class TestClass
 {
-
 }
