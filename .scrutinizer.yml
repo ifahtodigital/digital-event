@@ -1,11 +1,12 @@
 build:
   environment:
     php:
-      version: "7.4"
+      version: 7.4
   nodes:
     coverage:
       tests:
         override:
+          - php-scrutinizer-run
           - command: composer phpunit-xml
             coverage:
               file: phpunit.coverage.xml
