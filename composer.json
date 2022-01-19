@@ -1,0 +1,26 @@
+{
+    "name": "ifahto-digital/digital-events",
+    "description": "Digital event from scratch with the main modules already implemented",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IfahtoDigital\\DigitalEvents\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IfahtoDigital\\DigitalEvents\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sagit Gutierrez",
+            "email": "contact@jozaguts.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.5"
+    }
+}
