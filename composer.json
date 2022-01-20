@@ -1,7 +1,13 @@
 {
     "name": "ifahto-digital/digital-events",
     "description": "Digital event from scratch with the main modules already implemented",
-    "type": "project",
+    "authors": [
+        {
+            "name": "Sagit Gutierrez",
+            "email": "contact@jozaguts.dev"
+        }
+    ],
+    "type": "librery",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -13,18 +19,12 @@
             "IfahtoDigital\\DigitalEvents\\Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Sagit Gutierrez",
-            "email": "contact@jozaguts.dev"
-        }
-    ],
     "require": {
-        "php": "^7.4",
-        "phpunit/phpunit": "^9.5"
+        "php": "^7.4"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.6"
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpunit/phpunit": "^9.5"
     },
     "scripts": {
         "phpunit": "phpunit -c phpunit.xml --colors --stop-on-error --stop-on-failure --testdox",
